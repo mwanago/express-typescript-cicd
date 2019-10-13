@@ -36,7 +36,7 @@
     "typescript": "^3.2.1"
   },
   "scripts": {
-    "dev": "ts-node ./src/server.ts",
+    "start": "ts-node ./src/server.ts",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest"
   },
