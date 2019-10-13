@@ -8,6 +8,8 @@ import validateEnv from './utils/validateEnv';
 
 validateEnv();
 
+console.log('Hello world!');
+
 const app = new App(
   [
     new PostController(),
