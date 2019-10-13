@@ -1,6 +1,10 @@
 language: node_js
 node_js:
-  - lts/*
+- lts/*
 script:
-  - "npm run lint"
-  - "npm run test"
+- npm run lint
+- npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: g+u2GUIt8kUjsgGaBE/qpdWk1S/yaKUbG27gUKCpCgRQATytR24aXM9Mefcqf8ZoHqbQPZPL0LVg0r834HV6tvsfLO0MaFeQtjZhQ9BTmcJg30NksUIh6WOrn/5WmnTyo9K/z6BNYfxC/AsnZiZQU8bNAkQpiswK2hcEyCZZTFRTAfmtaVVEb0po5a1d27bkVYoSytifjmHJ1QS1w2Gk70NzlyjcErIbb8ZHQYW1N1TRIicqT4MixSlrFcju2p5EofVE9pBsvt+Kg9G+Yod8XNixHzL2o1hJ7Xf53qgS+FEE0zfiDw98Hv4RfHy2Psn033V7s1+weEOR5MfzeDqalFnupxmFg5QWJ4UrYBpjuh8FYPu+2hHrPdEMV0yPDxHOXW+/ZUnSyjf53rXiS6IZ4mRRbhzzfZHYCMZUGPM/hTdvltZ8lLJNnPJtTDStG1IHNlIuQwaLFwCKi5Wpn91hyqmg4U54NRjrPQKBvME2lThq1vAzULaNnyiUPPUEjjRNbXh4NzP22NRvlWoSLAoj+mXaGa4sDdWIQSfmKjxv9GP3mAAXQvmQ2zDwtydusr9M6nAt+EJFrxhdNimXNLq+dWbOHcp2Vf2AelD4K8/mQ3OUPSRltQMyc2cyR/2v5/OdMOZAPMqvGVYILd0ThHuBCowCEosp6yrXb5VC4UowxFI=
