@@ -13,7 +13,7 @@
     "dotenv": "^6.2.0",
     "envalid": "^4.1.4",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "5.4.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.1",
